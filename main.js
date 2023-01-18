@@ -73,6 +73,34 @@ const ages = [33, 12, 20, 16, 5, 54, 21, 44, 61, 13, 15, 45, 25, 64, 32];
 //const lastedTenYears = companies.filter(company => (company.end - company.start >= 10));
 
 //console.log(lastedTenYears);
+
 // map
+// Create array of company names
+
+//const companyNames = companies.map(function(company) {
+//    return company.name
+//});
+
+//const testMap = companies.map(function(company) {
+//    return `${company.name} [${company.start} - ${company.end}]`;
+//});
+
+//const testMap = companies.map(company => `${company.name} [${company.start} - ${company.end}]`);
+
+//console.log(testMap);
+
+//const agesSquare = ages.map(age => Math.sqrt(age));
+//const agesTimesTwo = ages.map(age => age * 2);
+
+//console.log(agesTimesTwo);
+
+//If you wanna do both at the same time, all you have to do is
+
+//const ageMap = ages
+//    .map(age => Math.sqrt(age))
+//    .map(age => age * 2);
+
+//console.log(ageMap)
+
 // sort
 // reduce
